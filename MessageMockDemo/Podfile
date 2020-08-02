@@ -1,0 +1,8 @@
+platform:ios, '8.0'
+
+target ‘MessageMockDemoTests’ do
+use_frameworks!
+
+pod 'MessageMock', :path => '../', :configurations => ['Debug']
+
+end
